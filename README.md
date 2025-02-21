@@ -4,21 +4,26 @@ A simple and interactive To-Do List web application that allows users to add, se
 
 ## 🚀 Features
 
-. 📌 Add and remove tasks dynamically
+  📌 Add and remove tasks dynamically
 
-. 🔍 Search tasks in real-time
+  🔍 Search tasks in real-time
 
-. 💾 Stores data using localStorage
+  💾 Stores data using localStorage
 
-. 📩 Contact form integrated with EmailJS
+  📩 Contact form integrated with EmailJS
 
-. 🎨 Responsive and user-friendly UI
+  🎨 Responsive and user-friendly UI
 
 
 ## 🛠️ Technologies Used
 
-. Frontend: HTML, CSS, JavaScript
+  Frontend: HTML, CSS, JavaScript
 
-. Email Service: EmailJS
+  Email Service: EmailJS
 
-. Storage: Browser Local Storage
+  Storage: Browser Local Storage
+
+
+## 📬 Contact
+
+For any queries, reach out via contact.html or email me at vedantsalunkhe1107@gmail.com.
