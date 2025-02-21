@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+.title:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.link  {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.search-bar {
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.search-btn {
+    background-color: #333;
+    color: rgb(0, 182, 0);
+    border: 1px solid rgb(0, 182, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.search-btn:hover {
+    background-color: rgb(0, 182, 0);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container label {
+    font-size: 22px;
+}
+
+.container small {
+    font-size: 15px;
+    color: gray;
+}
+
+.container input,
+.container textarea {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container input:focus,
+.container textarea:focus {
+    border-color: rgb(37, 106, 185);
+    box-shadow: 0 2px 5px rgb(37, 106, 185);
+}
+
+.container .btn-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container .btn {
+    display:inline-block;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(37, 106, 185);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.container .btn:hover {
+    background-color: rgb(0, 182, 0);
+}
+
+.container .clr:hover {
+    background-color: red;
+}
+
+.table h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid rgb(209, 207, 207);
+}
+
+th {
+    padding: 10px;
+    height: 40px;
+}
+
+.del {
+    display:inline-block;
+    padding: 10px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.del:hover {
+    background-color: rgb(106, 0, 0);
+}
